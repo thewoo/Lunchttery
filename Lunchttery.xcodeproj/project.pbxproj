@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B707CB61664E4B600BDCB01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B707CB51664E4B600BDCB01 /* UIKit.framework */; };
+		9B707CB81664E4B600BDCB01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B707CB71664E4B600BDCB01 /* Foundation.framework */; };
+		9B707CBA1664E4B600BDCB01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B707CB91664E4B600BDCB01 /* CoreGraphics.framework */; };
+		9B707CC01664E4B600BDCB01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B707CBE1664E4B600BDCB01 /* InfoPlist.strings */; };
+		9B707CC21664E4B600BDCB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B707CC11664E4B600BDCB01 /* main.m */; };
+		9B707CC61664E4B600BDCB01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B707CC51664E4B600BDCB01 /* AppDelegate.m */; };
+		9B707CC81664E4B600BDCB01 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B707CC71664E4B600BDCB01 /* Default.png */; };
+		9B707CCA1664E4B600BDCB01 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B707CC91664E4B600BDCB01 /* Default@2x.png */; };
+		9B707CCC1664E4B600BDCB01 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B707CCB1664E4B600BDCB01 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B707CB11664E4B600BDCB01 /* Lunchttery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lunchttery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B707CB51664E4B600BDCB01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B707CB71664E4B600BDCB01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B707CB91664E4B600BDCB01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B707CBD1664E4B600BDCB01 /* Lunchttery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lunchttery-Info.plist"; sourceTree = "<group>"; };
+		9B707CBF1664E4B600BDCB01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B707CC11664E4B600BDCB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B707CC31664E4B600BDCB01 /* Lunchttery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lunchttery-Prefix.pch"; sourceTree = "<group>"; };
+		9B707CC41664E4B600BDCB01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B707CC51664E4B600BDCB01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B707CC71664E4B600BDCB01 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B707CC91664E4B600BDCB01 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B707CCB1664E4B600BDCB01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B707CAE1664E4B600BDCB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B707CB61664E4B600BDCB01 /* UIKit.framework in Frameworks */,
+				9B707CB81664E4B600BDCB01 /* Foundation.framework in Frameworks */,
+				9B707CBA1664E4B600BDCB01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B707CA61664E4B600BDCB01 = {
+			isa = PBXGroup;
+			children = (
+				9B707CBB1664E4B600BDCB01 /* Lunchttery */,
+				9B707CB41664E4B600BDCB01 /* Frameworks */,
+				9B707CB21664E4B600BDCB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B707CB21664E4B600BDCB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B707CB11664E4B600BDCB01 /* Lunchttery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B707CB41664E4B600BDCB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B707CB51664E4B600BDCB01 /* UIKit.framework */,
+				9B707CB71664E4B600BDCB01 /* Foundation.framework */,
+				9B707CB91664E4B600BDCB01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B707CBB1664E4B600BDCB01 /* Lunchttery */ = {
+			isa = PBXGroup;
+			children = (
+				9B707CC41664E4B600BDCB01 /* AppDelegate.h */,
+				9B707CC51664E4B600BDCB01 /* AppDelegate.m */,
+				9B707CBC1664E4B600BDCB01 /* Supporting Files */,
+			);
+			path = Lunchttery;
+			sourceTree = "<group>";
+		};
+		9B707CBC1664E4B600BDCB01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B707CBD1664E4B600BDCB01 /* Lunchttery-Info.plist */,
+				9B707CBE1664E4B600BDCB01 /* InfoPlist.strings */,
+				9B707CC11664E4B600BDCB01 /* main.m */,
+				9B707CC31664E4B600BDCB01 /* Lunchttery-Prefix.pch */,
+				9B707CC71664E4B600BDCB01 /* Default.png */,
+				9B707CC91664E4B600BDCB01 /* Default@2x.png */,
+				9B707CCB1664E4B600BDCB01 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B707CB01664E4B600BDCB01 /* Lunchttery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B707CCF1664E4B600BDCB01 /* Build configuration list for PBXNativeTarget "Lunchttery" */;
+			buildPhases = (
+				9B707CAD1664E4B600BDCB01 /* Sources */,
+				9B707CAE1664E4B600BDCB01 /* Frameworks */,
+				9B707CAF1664E4B600BDCB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lunchttery;
+			productName = Lunchttery;
+			productReference = 9B707CB11664E4B600BDCB01 /* Lunchttery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B707CA81664E4B600BDCB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Magic Dealers";
+			};
+			buildConfigurationList = 9B707CAB1664E4B600BDCB01 /* Build configuration list for PBXProject "Lunchttery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B707CA61664E4B600BDCB01;
+			productRefGroup = 9B707CB21664E4B600BDCB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B707CB01664E4B600BDCB01 /* Lunchttery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B707CAF1664E4B600BDCB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B707CC01664E4B600BDCB01 /* InfoPlist.strings in Resources */,
+				9B707CC81664E4B600BDCB01 /* Default.png in Resources */,
+				9B707CCA1664E4B600BDCB01 /* Default@2x.png in Resources */,
+				9B707CCC1664E4B600BDCB01 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B707CAD1664E4B600BDCB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B707CC21664E4B600BDCB01 /* main.m in Sources */,
+				9B707CC61664E4B600BDCB01 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B707CBE1664E4B600BDCB01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B707CBF1664E4B600BDCB01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B707CCD1664E4B600BDCB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B707CCE1664E4B600BDCB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B707CD01664E4B600BDCB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lunchttery/Lunchttery-Prefix.pch";
+				INFOPLIST_FILE = "Lunchttery/Lunchttery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B707CD11664E4B600BDCB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lunchttery/Lunchttery-Prefix.pch";
+				INFOPLIST_FILE = "Lunchttery/Lunchttery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B707CAB1664E4B600BDCB01 /* Build configuration list for PBXProject "Lunchttery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B707CCD1664E4B600BDCB01 /* Debug */,
+				9B707CCE1664E4B600BDCB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B707CCF1664E4B600BDCB01 /* Build configuration list for PBXNativeTarget "Lunchttery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B707CD01664E4B600BDCB01 /* Debug */,
+				9B707CD11664E4B600BDCB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B707CA81664E4B600BDCB01 /* Project object */;
+}
